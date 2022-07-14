@@ -23,20 +23,33 @@ body {
 .herotext h1 {
     margin: 0;
     color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+
 
 }
 
 .herotext>p {
-    color: #fff;
-    padding-bottom: 10px;
+    color: rgb(201, 191, 191);
+    padding: 15px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+
 }
 
-.herotext>a {
+.button {
     text-decoration: none;
     background: #EF233C;
-    padding: 10px 20px;
+    padding: 10px 15px;
     border-radius: 5px;
     color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+
 }
 
 .hero-sub {
@@ -44,7 +57,7 @@ body {
     height: 80vh;
     background-image: linear-gradient(to right,
             rgba(0, 0, 1, 1),
-            rgba(0, 0, 0, .5),
+            rgba(0, 0, 0, .4),
             rgba(0, 0, 0, .1),
             rgba(0, 0, 0, 0));
     padding: 120px;
@@ -53,3 +66,57 @@ body {
 
 
 /* header ends */
+/* article video starts */
+
+.video {
+    padding: 120px;
+    display: flex;
+    height: auto;
+}
+
+.atext {
+    width: 56%;
+}
+
+.avideo {
+    background-image: url(image/video.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 44%;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+#icon {
+    font-size: 50px;
+    color: whitesmoke;
+    background-color: #EF233C;
+    border: 1px solid #EF233C;
+    border-radius: 50%;
+    box-shadow: 3px 3px 50px 10px #EF233C !important;
+}
+
+.their {
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+
+}
+
+.atextp {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+
+
+/* article video ends */
