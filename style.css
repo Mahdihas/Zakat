@@ -4,6 +4,15 @@ body {
     box-sizing: border-box;
 }
 
+/* var  */
+:root {
+    --h1-color: #fff;
+    --pcolor: gray;
+    --button-color: #EF233C;
+}
+
+/* var */
+
 /* header */
 
 .hero {
@@ -22,7 +31,7 @@ body {
 
 .herotext h1 {
     margin: 0;
-    color: #fff;
+    color: var(--h1-color);
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 35px;
@@ -31,7 +40,7 @@ body {
 }
 
 .herotext>p {
-    color: rgb(201, 191, 191);
+    color: var(--pcolor);
     padding: 15px 0;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -42,7 +51,7 @@ body {
 
 .button {
     text-decoration: none;
-    background: #EF233C;
+    background: var(--button-color);
     padding: 10px 15px;
     border-radius: 5px;
     color: #fff;
@@ -97,10 +106,10 @@ body {
 #icon {
     font-size: 50px;
     color: whitesmoke;
-    background-color: #EF233C;
-    border: 1px solid #EF233C;
+    background-color: var(--button-color);
+    border: 1px solid var(--button-color);
     border-radius: 50%;
-    box-shadow: 3px 3px 50px 10px #EF233C !important;
+    box-shadow: 3px 3px 50px 10px var(--button-color) !important;
 }
 
 .their {
@@ -115,7 +124,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     padding-bottom: 10px;
-    color: gray;
+    color: var(--pcolor);
 }
 
 .salat {
@@ -161,7 +170,7 @@ footer {
     font-style: normal;
     letter-spacing: 0.5px;
 
-    color: #EF233C;
+    color: var(--button-color);
 
 
     font-size: 36px;
@@ -169,7 +178,7 @@ footer {
 }
 
 footer p {
-    color: #fff;
+    color: var(--pcolor);
     padding-bottom: 10px;
 }
 
