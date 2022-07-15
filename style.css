@@ -143,3 +143,34 @@ body {
 
 
 /* article video ends */
+
+
+
+/* footer starts */
+footer {
+    background: #000;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.lobster {
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-family: 'Lobster';
+    font-style: normal;
+    letter-spacing: 0.5px;
+
+    color: #EF233C;
+
+
+    font-size: 36px;
+    line-height: 44px;
+}
+
+footer p {
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+/* footer ends */
