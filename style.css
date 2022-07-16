@@ -66,7 +66,7 @@ body {
     height: 80vh;
     background-image: linear-gradient(to right,
             rgba(0, 0, 1, 1),
-            rgba(0, 0, 0, .4),
+            rgba(0, 0, 0, .3),
             rgba(0, 0, 0, .1),
             rgba(0, 0, 0, 0));
     padding: 120px;
@@ -152,6 +152,88 @@ body {
 
 
 /* article video ends */
+/* donation-main starts*/
+#live {
+    text-align: center;
+
+}
+
+#donatp {
+    text-align: center;
+}
+
+.donate-box {
+    padding: 120px;
+    padding-top: 0;
+    display: flex;
+    padding-bottom: 20px;
+
+
+}
+
+
+.donate-left {
+    width: 49%;
+    padding: 50px 20px;
+    display: flex;
+    background: #FEF4F5;
+    border-radius: 10px;
+    margin-right: 2%;
+}
+
+.donate-right {
+    width: 49%;
+    padding: 50px 20px;
+    display: flex;
+    background: #FEF4F5;
+    border-radius: 10px;
+
+}
+
+.icon-box {
+    width: 20%;
+
+}
+
+.direct {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.directp {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    line-height: 15px;
+    padding-top: 6px;
+    color: gray;
+}
+
+.fa-book-skull {
+    font-size: 30px;
+    color: rgb(208, 86, 86);
+}
+
+.text-box {
+    width: 80%;
+}
+
+/* donation-main end */
+/* pray-main */
+.pray-main {
+    padding: 50px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pray-main img {
+    width: 30%;
+    height: 100%;
+}
+
+/* pray-main ends */
 
 
 
