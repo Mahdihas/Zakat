@@ -234,6 +234,47 @@ body {
 }
 
 /* pray-main ends */
+/* extend box */
+#extend {
+    text-align: center;
+}
+
+.amet {
+    text-align: center;
+}
+
+.love img {
+    width: 100%;
+}
+
+.love-box {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* extend box */
+
+/* media 576 starts*/
+@media screen and (max-width:576px) {
+    .love-box {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+/* media 576  ends*/
+/* media 768 starts*/
+@media screen and (min-width:577px) and (max-width:768px) {
+    .love-box {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* media 768 ends*/
+
+
 
 
 
